@@ -1,5 +1,5 @@
-from helpers import print_func_name
-from speed import breaking, accelerating
+from .helpers import print_func_name
+from .speed import breaking, accelerating
 
 def turning_left():
     breaking()

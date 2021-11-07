@@ -1,4 +1,4 @@
-from helpers import print_func_name
+from .helpers import print_func_name
 
 
 def accelerating():
