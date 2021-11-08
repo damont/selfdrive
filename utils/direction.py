@@ -1,8 +1,7 @@
-import sys
-print(f'{sys.path[0]=}')
+print(f'{__file__=} {__package__=}')
 
-from helpers import print_func_name
-from speed import breaking, accelerating
+from .helpers import print_func_name
+from .speed import breaking, accelerating
 
 def turning_left():
     breaking()
