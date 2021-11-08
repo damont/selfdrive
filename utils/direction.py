@@ -1,5 +1,8 @@
-from .helpers import print_func_name
-from .speed import breaking, accelerating
+import sys
+print(f'{sys.path[0]=}')
+
+from helpers import print_func_name
+from speed import breaking, accelerating
 
 def turning_left():
     breaking()
