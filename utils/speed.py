@@ -1,5 +1,5 @@
 import sys
-print(f'{sys.path[0]=}')
+print(f'{__file__=} {sys.path[0]=}')
 
 from helpers import print_func_name
 
